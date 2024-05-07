@@ -32,7 +32,7 @@ app.get("/shop", function (요청, 응답) {
 });
 
 // 영규 개같이 뛰어오는거 작성
-app.get("/byungsin", (요청, 응답) => {
+app.get("/dog", (요청, 응답) => {
   //get은 누가 메인페이지 접속 시
   응답.sendFile(__dirname + "/test.html"); //sendFile : 파일보내기
 });
