@@ -6,12 +6,12 @@ const app = express();
 //서버 띄우는 코드
 app.listen(8080, () => {
   //8080은 포트번호 / 포트는 타 컴퓨터가 내 컴퓨터로 연결할 수 있는 통로
-  console.log("http://localhost:8080 에서 서비 실행중");
+  console.log("http://localhost:8080 에서 서버 실행중");
 });
 
 app.get("/", (요청, 응답) => {
   //get은 누가 메인페이지 접속 시
-  응답.send("여다슬ㅈㄴ패기"); //send()를 보냄
+  응답.send("시무룩한 영규면 개추"); //send()를 보냄
 });
 
 //서버 기능 코드
